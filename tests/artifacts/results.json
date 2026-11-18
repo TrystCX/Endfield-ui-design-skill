@@ -1,0 +1,42 @@
+[
+  {
+    "width": 375,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 375,
+      "clientWidth": 375,
+      "scrollHeight": 4131
+    }
+  },
+  {
+    "width": 768,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "scrollHeight": 3275
+    }
+  },
+  {
+    "width": 1280,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 1280,
+      "clientWidth": 1280,
+      "scrollHeight": 2462
+    }
+  },
+  {
+    "width": 1920,
+    "noHorizontalOverflow": true,
+    "dimensions": {
+      "scrollWidth": 1920,
+      "clientWidth": 1920,
+      "scrollHeight": 2459
+    }
+  },
+  {
+    "themeToggle": true,
+    "focusAction": true
+  }
+]

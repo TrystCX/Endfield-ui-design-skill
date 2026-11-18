@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Endfield UI Design Skill Forward Test</title>
+  <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+  <aside class="rail" aria-label="Primary navigation"><div class="rail-logo">EF</div><nav><button aria-current="page">01</button><button>02</button><button>03</button></nav></aside>
+  <div class="content">
+    <header class="topbar"><span class="micro">Endfield UI / Forward Test</span><div class="actions"><button class="control" id="theme-toggle">暗色主题</button><button class="action" id="focus-action">主行动</button></div></header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><span class="micro">// New surface / 2026.11</span><h1 id="hero-title">ORBITAL<br />FIELD NOTE</h1><p>一个从内容任务推导的官网气质页面：偏心主视觉、靠边信息、纸白与墨色，以及一处负责行动的信号黄。</p><div class="hero-actions"><button class="action">查看档案</button><button class="ghost-btn">读取说明</button></div></div><div class="hero-figure" aria-hidden="true"><div class="wedge"></div><div class="figure-label">ORIGINAL DIAGRAM / NO OFFICIAL ASSETS</div></div></section>
+      <section class="section" aria-labelledby="signal-title"><div class="section-title"><span class="bar"></span><div><div class="en">Signal / Metrics</div><h2 id="signal-title">信号与进度</h2></div></div><div class="grid"><article class="panel"><span class="micro">CURRENT STATUS</span><strong>68%</strong><p>黄色只标记完成度，蓝色留给量值图表。</p><div class="meter" aria-label="68 percent complete"><i></i></div></article><article class="panel"><span class="micro">DATA VOLUME</span><strong class="data">2,480</strong><p>真实读数以技术副层和稳定列宽呈现。</p></article><article class="panel"><span class="micro">NEXT ACTION</span><strong>01 / 04</strong><p>主行动靠近内容焦点，次级行动保持中性。</p></article></div></section>
+      <section class="section" aria-labelledby="migration-title"><div class="section-title"><span class="bar"></span><div><div class="en">Migration / Before → After</div><h2 id="migration-title">风格迁移</h2></div></div><div class="migration"><article class="before"><span class="micro">BEFORE / GENERIC SAAS</span><h3>Everything in cards</h3><p>均匀圆角、默认蓝色、每个信息块拥有同样权重。</p><span class="pill">View dashboard</span></article><article class="after"><span class="micro">AFTER / INDUSTRIAL EDITORIAL</span><h3>结构先于装饰</h3><div class="row"><span>偏心锚点</span><strong>01</strong></div><div class="row"><span>靠边信息</span><strong>02</strong></div><div class="row"><span>主题色预算</span><strong>03</strong></div></article></div></section>
+      <section class="section" aria-labelledby="components-title"><div class="section-title"><span class="bar"></span><div><div class="en">Component / States</div><h2 id="components-title">独立组件</h2></div></div><div class="component-board"><article class="panel"><span class="micro">BUTTON</span><button class="action">Action</button><button class="control">Control</button><button class="ghost-btn">Light</button></article><article class="panel"><span class="micro">FORM</span><div class="field"><label for="station">站点代号</label><input id="station" placeholder="例如 SEVENTH" /></div><div class="toast" role="status">已保存 · 这是持续可读的成功反馈</div></article><article class="panel"><span class="micro">NAVIGATION</span><button class="control" aria-current="page">Current item</button><button class="ghost-btn">Secondary item</button><p>焦点环和当前状态不只靠颜色。</p></article><article class="panel"><span class="micro">DATA DISPLAY</span><strong class="gain">+06%</strong><p>增益标签使用角色色，不改写危险语义。</p></article></div></section>
+      <section class="section" aria-labelledby="surfaces-title"><div class="section-title"><span class="bar"></span><div><div class="en">Surface Separation</div><h2 id="surfaces-title">载体隔离</h2></div></div><div class="surface-grid"><article class="surface-card website"><span class="micro">WEBSITE</span><h3>纸白 · 大图 · 一处黄</h3><p>直角、低密度、靠边导航。</p></article><article class="surface-card game"><span class="micro">GAME UI</span><h3>高密度 · 分区 · 角色色</h3><p>切角只在语义需要时出现。</p></article><article class="surface-card promo"><span class="micro">PROMOTIONAL</span><h3>主题接管 · 批注 · 章节</h3><p>编辑痕迹服务于体裁。</p></article></div></section>
+    </main>
+    <footer><span class="micro">Verified fixture / original geometry / no official assets</span></footer>
+  </div>
+  <script>const root=document.documentElement;const toggle=document.querySelector('#theme-toggle');toggle.addEventListener('click',()=>{const dark=root.dataset.theme==='dark';root.dataset.theme=dark?'light':'dark';toggle.textContent=dark?'暗色主题':'亮色主题'});document.querySelector('#focus-action').addEventListener('click',()=>document.querySelector('#station').focus());</script>
+</body>
+</html>

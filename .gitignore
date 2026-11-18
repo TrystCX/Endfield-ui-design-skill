@@ -1,0 +1,13 @@
+# Local and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary validation output
+.validation-deps/
+.validation-shim/
+*.patch
+
+# Dependency folders
+node_modules/
